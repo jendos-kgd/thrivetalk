@@ -350,3 +350,30 @@ header {
   color: #FAB63E;
   margin-top: 175px;
 }
+
+/*=============Contact block============*/
+.contact_block {
+  height: 800px;
+  padding-top: 105px;
+  padding-left: 180px;
+  background-color: #22356F;
+  background-image: url('img/contact_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #fff;
+}
+.big_text {
+  font-size: 64px;
+  margin-top: 230px;
+}
+.contact_text {
+  max-width: 580px;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  margin-top: 75px;
+}
+.contact_mail {
+  color: #62D0DF;
+  margin-top: 100px;
+}
