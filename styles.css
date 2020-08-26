@@ -74,6 +74,8 @@ p {
 button {
   width: 150px;
   height: 50px;
+  border: none;
+  outline: none;
 }
 
 /*==================Header============*/
@@ -108,8 +110,6 @@ header {
   background-color: #62D0DF;
   color: #fff;
   border-radius: 50px;
-  border: none;
-  outline: none;
 }
 .header_about_container {
   margin-top: 185px;
@@ -127,13 +127,8 @@ header {
 .header_about_container form {
   display: inline-block;
   margin-top: 65px;
-}
-.header_about_container form button {
   font-size: 16px;
-  border: none;
-  outline: none;
 }
-
 .btn_fill {
   background-color: #F9B640;
   color: #fff;
