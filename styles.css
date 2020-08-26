@@ -88,6 +88,12 @@ h4 {
   letter-spacing: -0.03em;
   color: #22356F;
 }
+h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #22356F;
+}
 .central_header {
   width: fit-content;
   margin-left: auto;
@@ -376,4 +382,45 @@ header {
 .contact_mail {
   color: #62D0DF;
   margin-top: 100px;
+}
+
+/*===============Footer=============*/
+.info_block {
+  height: 380px;
+  padding-left: 640px;
+  padding-top: 100px;
+  background-image: url('img/footer_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+}
+
+.some_info {
+  max-width: 210px;
+}
+.some_info p,
+.address p,
+.work_hours p {
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+  margin-top: 40px;
+}
+.address {
+  max-width: 220px;
+  margin-left: 50px;
+}
+.work_hours {
+  margin-left: 50px;
+}
+.copyright_block {
+  height: 80px;
+  padding-left: 180px;
+  padding-top: 35px;
+  background-color: #62D0DF;
+}
+.copyright_block p {
+    color: #fff;
+    font-size: 14px;
 }
