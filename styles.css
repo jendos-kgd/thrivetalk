@@ -78,6 +78,21 @@ h2 {
   font-size: 36px;
   letter-spacing: -0.006em;
 }
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #22356F;
+}
+.central_header {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 p {
   font-size: 24px;
 }
@@ -179,4 +194,129 @@ header {
 }
 .less_size {
   font-size: 19px;
+}
+
+/*===========About block==========*/
+.about_header {
+  margin-left: 105px;
+  color: #22356F;
+  float: left;
+}
+.about_block p {
+  width: 595px;
+  margin: 155px auto 0 auto;
+  line-height: 34px;
+  color: #22356F;
+}
+.about_block .central_header {
+  color: rgba(34, 53, 111, 0.5);
+  margin-top: 75px;
+}
+.small_boxes_container,
+.big_boxes_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.small_boxes_container {
+  margin-top: 25px;
+  margin-bottom: 120px;
+}
+.small_box {
+  width:25%;
+  height: 360px;
+  position: relative;
+}
+.small_white_line {
+  width: 255px;
+  height: 72px;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+
+}
+.small_box img {
+  position: absolute;
+  top: 110px;
+  left: 55px;
+}
+.small_box p,
+.big_box p {
+  color: #fff;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  margin-top: 0;
+}
+.small_box p {
+  margin-left: 80px;
+  margin-top: 25px;
+  max-width: 230px;
+}
+.light_blue {
+  background-color: #FFE2DE;
+}
+.green {
+  background-color: #C4E769;
+}
+.blue {
+  background-color: #62D0DF;
+}
+.dark_blue {
+  background-color:  #0052C1;
+}
+.big_box {
+  width: 33.33%;
+  height: 480px;
+  position: relative;
+}
+.big_box img {
+  position: absolute;
+  top: 145px;
+  left: 70px;
+}
+.big_white_line {
+  width: 340px;
+  height: 96px;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+}
+.big_box p {
+  margin-top: 30px;
+  margin-left: 105px;
+}
+.violet {
+  background-color: #22356F;
+}
+.deep_blue {
+  background-color: #0052C1;
+}
+.strawberry {
+  background-image: url('img/strawberry_bg.png');
+}
+.light_gray_blue {
+  background-color: #62D0DF;
+}
+.light_gray {
+  background-color: #DEE1FF;
+}
+.true_blue {
+  background-color: #8F00FF;
+}
+.discriptions_block {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.discription {
+  width: 33.33%;
+  height: 240px;
+  padding: 55px 77px 0 105px;
+}
+.discription p {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+  margin-top: 30px;
 }
