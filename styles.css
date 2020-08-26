@@ -1,0 +1,144 @@
+/*=======Сброс css=============*/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, img {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/*==========Main styles=============*/
+@font-face {
+  font-family: 'Larsseit';
+  src: url('fonts/Larsseit.woff2'),
+       url('fonts/Larsseit.woff'),
+       url('fonts/Larsseit.ttf'),
+       url('font/Larsseit.otf');
+}
+body {
+  max-width: 1440px;
+  font-family: Larsseit, sans-serif;
+}
+h1 {
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.035em;
+}
+p {
+  font-size: 24px;
+}
+.logo {
+  color: #62D0DF;
+}
+button {
+  width: 150px;
+  height: 50px;
+}
+
+/*==================Header============*/
+header {
+  height: 840px;
+  background: url('img/header_bg_layer_1.png') right no-repeat,
+              url('img/header_bg_layer_2.png') 736px 0px no-repeat,
+              url('img/header_bg_layer_3.png') left no-repeat;
+  padding-left: 180px;
+  padding-top: 25px;
+}
+.upper_line {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  margin-top: 10px;
+  width: 233px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  font-size: 14px;
+  color: #22356F;
+  padding-bottom: 10px;
+}
+.mail_btn {
+  margin-right: 150px;
+  background-color: #62D0DF;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+.header_about_container {
+  margin-top: 185px;
+  max-width: 470px;
+}
+.header_about_container h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #22356F;
+}
+.header_about {
+  line-height: 42px;
+  color: #22356F;
+}
+.header_about_container form {
+  display: inline-block;
+  margin-top: 65px;
+}
+.header_about_container form button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.btn_fill {
+  background-color: #F9B640;
+  color: #fff;
+}
+.btn_stroke {
+  color: #F9B640;
+  margin-left: 30px;
+}
