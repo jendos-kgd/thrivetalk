@@ -171,3 +171,12 @@ header {
 .why_block h2 {
   color: #fff;
 }
+.why_block p {
+  line-height: 35px;
+  max-width: 555px;
+  margin-top: 90px;
+  color: #fff;
+}
+.less_size {
+  font-size: 19px;
+}
