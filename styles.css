@@ -239,6 +239,7 @@ header {
 }
 .small_box {
   width:25%;
+  min-width: 330px;
   height: 360px;
   position: relative;
 }
@@ -283,6 +284,7 @@ header {
 /*=============Services block============*/
 .big_box {
   width: 33.33%;
+  min-width: 450px;
   height: 480px;
   position: relative;
 }
